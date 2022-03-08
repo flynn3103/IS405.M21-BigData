@@ -1,3 +1,7 @@
 .ipynb_checkpoints
+<<<<<<< HEAD
 */.ipynb_checkpoints/*
 *.json
+=======
+*/.ipynb_checkpoints/*
+>>>>>>> c47e0d60405a60f41d1914bdec6d62f71c549683
