@@ -1,0 +1,4 @@
+pyspark
+python-confluent-kafka
+luigi
+snakebite-py3
