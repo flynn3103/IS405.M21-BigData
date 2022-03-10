@@ -1,12 +1,13 @@
 # IS405.M21 Big Data
 
+
 ## Motivation
 In this project, I'm going to build an end to end data pipeline starting with data streaming from `MilionSong Dataset` to `Kafka cluster`. There will be a `Spark streaming` application to consumer the stream message and ingest to `Hadoop`, stored as parquet format, and retrieved with `Spark SQL` via `Jupyter`. There is another Spark Batch job to run the model after the experiment on Jyputer. The experiment focuses on the analyze and predict the factors impacting to churn rate. 
 
 The data pipeline looks as below:
 
 <p align="center">
-    <img width="400" height="350" src="./images/bigdata.jpeg">
+    <img  src="./images/bigdata.jpeg">
 </p>
 
 ## Dataset
@@ -40,12 +41,13 @@ The data pipeline looks as below:
 ## Setup prerequisites
 Set up enviroment with Docker
 ```
-docker-compose up
+docker-compose up -d
 ```
 
 Install library with Conda
 ```
 conda create --name bigdata --file requirements.txt
+conda activate bigdata
 ```
 
 
