@@ -75,17 +75,6 @@ The main project files and their respective functions listed as below:
 - medium-sparkify-event-data.json.gz: json data should be unzip when start testing.
 - deploy.sh: shell script to quicly deploy the Spark application to our Yarn cluster.
 
-## How to run ??
-How to run the Kafka producer:
 
-- Extract the `medium-sparkify-event-data.json.gz` in data folder
-- Run python `kafka_producer.py --time_interval 1` to send every message per second
 
-How to run Spark streaming application:
-
-- At the current project, run `./deploy` script
-- It will submit our pyspark application to Yarn cluster and start consume message sent from Kafka.
-
-## Result Summary
-- The business problem to solve: predict churn rate
 
